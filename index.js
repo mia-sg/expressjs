@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 // Route handling
-app.post('/example', (req, res) => {
+app.post('/', (req, res) => {
   // Access JSON data from the request body
   const jsonData = req.body;
 
